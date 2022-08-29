@@ -1,0 +1,84 @@
+/* Hero Section */
+
+.hero {
+    display: flex;
+    margin-top: 50px;
+    background-color: #F3FCF7;
+}
+
+.hero-details {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.hero-image {
+    position: relative;
+    margin-left: 100px;
+
+}
+
+.hero-image-rating {
+    position: absolute;
+    top: 330px;
+    left: -120px;
+}
+
+.hero-image-quality {
+    position: absolute;
+    right: -40px;
+    top: 200px;
+}
+
+.hero-image-dot {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+}
+
+
+/* features */
+
+.features {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.shipping {
+    display: flex;
+}
+
+.payment {
+    display: flex;
+}
+
+.promo {
+    display: flex;
+}
+
+.support {
+    display: flex;
+}
+
+.shipping-details {
+    margin-left: 10px;
+}
+
+.payment-details {
+    margin-left: 10px;
+}
+
+.promo-details {
+    margin-left: 10px;
+}
+
+.support-details {
+    margin-left: 10px;
+}
+
+.icon {
+    margin-top: 15px;
+}
